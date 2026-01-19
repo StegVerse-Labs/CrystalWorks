@@ -1,0 +1,8 @@
+# Security Policy (CrystalWorks)
+
+Do not include:
+- sensitive facility information
+- secrets
+- instructions that enable hazardous misuse
+
+Report issues via GitHub Security Advisories.
