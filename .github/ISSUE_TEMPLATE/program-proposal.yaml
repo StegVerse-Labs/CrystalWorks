@@ -1,0 +1,31 @@
+name: Program proposal
+description: Propose a CrystalWorks research program (governance + measurement plan)
+title: "[Program] "
+labels: ["program"]
+body:
+  - type: input
+    attributes:
+      label: Program ID
+      placeholder: "CW-YYYY-###"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Hypothesis / goal
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Risk profile
+      options:
+        - R0
+        - R1
+        - R2
+        - R3
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Measurement plan (metadata-level)
+    validations:
+      required: true
